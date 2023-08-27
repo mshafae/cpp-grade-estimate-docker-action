@@ -1,0 +1,16 @@
+# action.yml
+name: 'Check C++ Header'
+description: 'For Cal State Fullerton CPSC courses; check a group of C++ source files to see if they have the required C++ header.'
+# inputs:
+#   src-files:  # id of input
+#     description: 'List of source files to check'
+#     required: true
+#     # default: 'World'
+# outputs:
+#   resultsx: # id of output
+#     description: 'The output from the check header run.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  # args:
+  #   - ${{ inputs.src-files }}
