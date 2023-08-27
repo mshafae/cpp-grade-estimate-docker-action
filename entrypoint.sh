@@ -5,7 +5,7 @@ MAKEFILE=$(python3 .action/lab_config.py makefile_name)
 
 echo "The makefile is ${MAKEFILE}"
 
-if [[ ! -f ${MAKEFILE} ]]; then
+if [ ! -f ${MAKEFILE} ]; then
     python3 .action/mkmakefiles.py .
 fi
 
