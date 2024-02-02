@@ -18,7 +18,7 @@ All the output is on `stdout`.
 
 ```
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Estimate if the lab is passing or failing
         id: header-check
         uses: mshafae/cpp-grade-estimate-docker-action@v1
