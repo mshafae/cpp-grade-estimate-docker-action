@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 
-MAKEFILE=$(python3 .action/lab_config.py makefile_name)
+MAKEFILE=$(python3 .config/lab_config.py makefile_name)
 
 echo "The makefile is ${MAKEFILE}"
 
