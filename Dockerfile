@@ -4,7 +4,7 @@
 # https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action
 
 # Container image that runs your code
-FROM ghcr.io/mshafae/tusk-jammy-min:latest
+FROM ghcr.io/mshafae/tusk-noble-min:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
